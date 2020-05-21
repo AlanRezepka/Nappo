@@ -36,6 +36,21 @@ h1 {
 
 @media (max-width: 720px) {
 
+  body {
+    text-align: center;
+    background-color: #05668d;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer {
+    background-color: #f9f6f2;
+    flex-shrink: 0;
+    text-align: center;
+  }
+
   .primer-titulo {
     text-align: center;
     font-size: 3rem;
@@ -53,6 +68,7 @@ h1 {
     padding: 15px;
     font-size: 1.1rem;
   }
+
 }
 
 /* Footer Section  */

@@ -3,8 +3,8 @@ const familia = ["Alan", "Domi", "Nicole", "Monica", "Julio"];
 function quienPasea () {
   var pasea = familia[Math.floor(Math.random() * familia.length)];
   var pasear = "Images/" + pasea +".png";
-  document.querySelector(".napo").classList.replace("animate__bounce", "animate__tada");
   document.querySelector(".napo").setAttribute("src", pasear);
+  document.querySelector(".napo").classList.replace("animate__bounce", "animate__tada");
   var felicidades = "¡Felicidades " + pasea + "!";
   document.querySelector(".primer-titulo").textContent = felicidades;
   document.querySelector(".segundo-titulo").textContent = "¡Te toca pasear al Napo!";
