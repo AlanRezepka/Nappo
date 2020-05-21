@@ -36,25 +36,10 @@ h1 {
 
 @media (max-width: 720px) {
 
-  body {
-    text-align: center;
-    background-color: #05668d;
-    font-family: 'Ubuntu', sans-serif;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #footer {
-    background-color: #f9f6f2;
-    flex-shrink: 0;
-    text-align: center;
-  }
-
   .primer-titulo {
     text-align: center;
     font-size: 3rem;
-    margin: 50px auto 10px;
+    margin: 5px auto 10px;
     font-weight: 900;
   }
   .segundo-titulo {
@@ -87,6 +72,7 @@ h1 {
 
 .copy-footer {
   font-size: 0.8rem;
+  padding: 0;
 }
 
 .iconos {
