@@ -36,10 +36,14 @@ h1 {
 
 @media (max-width: 720px) {
 
+  .napo {
+    width: 70%;
+  }
+
   .primer-titulo {
     text-align: center;
-    font-size: 3rem;
-    margin: 5px auto 10px;
+    font-size: 2.7rem;
+    margin: 30px auto 10px;
     font-weight: 900;
   }
   .segundo-titulo {
