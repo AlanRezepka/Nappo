@@ -13,7 +13,7 @@ function quienPasea () {
 }
 
 function volverIntentar () {
-  document.querySelector(".napo").setAttribute("src", "images/napo.png");
+  document.querySelector(".napo").setAttribute("src", "images/Napo1.png");
   document.querySelector(".napo").classList.replace("animate__tada", "animate__bounce");
   document.querySelector(".primer-titulo").textContent = "¿Quién Pasea al Napo Hoy?";
   document.querySelector(".segundo-titulo").textContent = "";
