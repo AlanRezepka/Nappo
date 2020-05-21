@@ -37,7 +37,7 @@ h1 {
 @media (max-width: 720px) {
 
   .napo {
-    width: 70%;
+    width: 60%;
   }
 
   #titulo {
@@ -58,8 +58,17 @@ h1 {
   }
 
   .iconos {
-    padding: 15px;
-    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  #footer {
+    background-color: #f9f6f2;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+
   }
 
 }
@@ -72,6 +81,7 @@ h1 {
   bottom: 0;
   width: 100%;
   text-align: center;
+  line-height: 0.1;
 }
 
 .link {
