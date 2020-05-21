@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-color: #05668d;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+/* Seccion titulo */
+#titulo {
+  padding: 3% 15%;
+}
+
+.primer-titulo {
+  color: #fff;
+}
+
+.segundo-titulo {
+  color: #fff;
+}
+
+/* Seccion Contenido */
+.napo {
+  text-align: center;
+}
+
+.boton {
+  font-size: 2rem;
+  margin: 5% 5% 9%;
+}
+
+
+@media (max-width: 720px) {
+
+  .primer-titulo {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 50px auto 30px;
+    font-weight: 900;
+  }
+  .segundo-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: auto;
+    font-weight: lighter;
+  }
+
+  .iconos {
+    padding: 15px;
+    font-size: 2rem;
+  }
+}
+
+/* Footer Section  */
+#footer {
+  background-color: #f9f6f2;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.link {
+  color: black;
+}
+
+.copy-footer {
+  font-size: 0.8rem;
+}
+
+.iconos {
+  padding: 15px;
+}
+
+.iconos:hover {
+  color: #05668d;
+}
