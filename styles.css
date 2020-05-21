@@ -19,6 +19,8 @@ h1 {
 
 .segundo-titulo {
   color: #fff;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
 /* Seccion Contenido */
@@ -37,19 +39,19 @@ h1 {
   .primer-titulo {
     text-align: center;
     font-size: 3rem;
-    margin: 50px auto 30px;
+    margin: 50px auto 10px;
     font-weight: 900;
   }
   .segundo-titulo {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: auto;
     font-weight: lighter;
   }
 
   .iconos {
     padding: 15px;
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 }
 
